@@ -51,7 +51,7 @@
 		1D507E64BA3900491F295FC5D33EC99C /* SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C036D385F503E67D53CFCBE9DACE0 /* SharedSequence.swift */; };
 		1DBF1E4A8E1A5CB93EDCF21984E05AF0 /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68174A32F5A0C5E653081C4327DA7822 /* ElementAt.swift */; };
 		1E8345851BDF40D49634C86D9CE0441D /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1B88539C092FE6DBAC6FDC4759A86 /* Skip.swift */; };
-		2085891BFF88117FAC4EEB4CE69B1E0E /* Pods-GotBeerAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2569F7AE360E2F9C9485A389675F2E65 /* Pods-GotBeerAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2085891BFF88117FAC4EEB4CE69B1E0E /* Pods-GotBeerAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBC49971937C57C8371BA1A5E8889C0 /* Pods-GotBeerAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20C0B98517D8B674D83C95BEF7F1AAB7 /* UINavigationItem+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1335A2E87363662EEA866A67F8B362A /* UINavigationItem+Rx.swift */; };
 		20C56C81504A6E759CCE0A0FE208BA4B /* UISearchBar+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43344833E041A47F26DA2997EC35D792 /* UISearchBar+Rx.swift */; };
 		22CEA29BE1F21AE3B91823D8F8ED25A5 /* RxTableViewReactiveArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3F55EB295DA28885128014351C0D77 /* RxTableViewReactiveArrayDataSource.swift */; };
@@ -76,6 +76,7 @@
 		2DC8318AB8CD8AA81D472E8DC26F39B2 /* UIPageControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE0548FC54F486E25C8313C41D9711 /* UIPageControl+Rx.swift */; };
 		31178C789D180A66D48BE5AA4499BF9C /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5353965D47966F7EA24B4EE8111D4C09 /* Scan.swift */; };
 		316C853EC24FD62BDE91F69F5303A0E6 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602A85082A0EABE6F5FC4FBF21E6F3B /* URLSessionConfiguration+Alamofire.swift */; };
+		322B82B4E1D1784B50F59A99156DAA72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169AAA422E46B126BBAD577E53742277 /* Foundation.framework */; };
 		32548F19AD8CE091C9B839D129A12ED3 /* LockOwnerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699BEBD389F5D3966C112A3EAD976B6 /* LockOwnerType.swift */; };
 		32FAB693F35FD0A43BFAA96EE42C0592 /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A2B6EDBEDDF4C33190F55EFF6BCF8 /* AsyncSubject.swift */; };
 		33DB58AF9288D79925FB91F693665208 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445A5192737CABF2010876037AF1F94 /* PriorityQueue.swift */; };
@@ -92,6 +93,7 @@
 		3A14BB97B3788BF621E1E310347945DF /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A64E7CC35B1FAF5692ADC15DA3F64D /* CompositeDisposable.swift */; };
 		3C683A6082B0876794E75B8528536388 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9AD0BD9160CA92B438164206EF8B7E /* Errors.swift */; };
 		3CDFD24908D9F5BB181BE6E87447EF2B /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CCEFBE8B321B1AE579D9F095B2AD /* SerialDispatchQueueScheduler.swift */; };
+		3E3C65314146866E5E9B13C30096FA00 /* Pods-GotBeerAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B548580515811859B43206A6FEEC7A6 /* Pods-GotBeerAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EA4A1ADEDCA2AE0CA13F960CC05E4B0 /* ObservableType+PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243888500C7BF5B2ED31BC2F2DDAF065 /* ObservableType+PrimitiveSequence.swift */; };
 		3ED8C56F19603D3E5AAD15D6D786330B /* CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9D9ABD921B462CF70AF38587EF285 /* CombineLatest+arity.swift */; };
 		3F5F9B36B14B208216C2326FE4C109EC /* NSObject+Rx+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755C2A4BFC7D2AFC2B836A127CAA54BF /* NSObject+Rx+RawRepresentable.swift */; };
@@ -150,7 +152,7 @@
 		62C4CE6A2C2313CEE8657A590441D170 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAB985FE1F4C4527A144792E854AA4 /* MultipartFormData.swift */; };
 		62D80CBCDFFDF5F4AC44E703B847E237 /* ShareReplayScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CEA338BF8024B34D8BD05BA31F8718 /* ShareReplayScope.swift */; };
 		63179D8525FF04647FF7BA5D565357A7 /* OperationQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C711C3BC85E51D3ECD0DC619CD2AE9 /* OperationQueueScheduler.swift */; };
-		6330DCBEE29DDC6E22B76F64B1037E43 /* Pods-GotBeerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E48D5FC5AF7B299C3F5649B011DD70D7 /* Pods-GotBeerApp-dummy.m */; };
+		6330DCBEE29DDC6E22B76F64B1037E43 /* Pods-GotBeerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15835EC8E4A0B86810732C8C103D34BB /* Pods-GotBeerApp-dummy.m */; };
 		633CD83518A976A5C824028495E3D423 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874532E5D835199F1E9A70383813461B /* RedirectHandler.swift */; };
 		63E2CC6CD18520C62D986203AD5C5D74 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809E2ABE4E74007158745D3EB56EC8C /* Window.swift */; };
 		65A3FCA73A3467B44170E4E7D9996C87 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACA9689A54F127AD3D978C6CAB812B /* RetryPolicy.swift */; };
@@ -278,10 +280,11 @@
 		C9BD7E48D30220C3C7C670A47D347135 /* KVORepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9989EEC1896519D1F17488D5D37809FC /* KVORepresentable.swift */; };
 		CA78134E57698E5E357AA737E802C00F /* RxPickerViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F06A1197C845276C19C9C71A1B0DED6 /* RxPickerViewDelegateProxy.swift */; };
 		CB8EC10AF104EAA696B4BBDE414C6BB2 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73723665A13D636C58238FC5F7C05820 /* ToArray.swift */; };
-		CBA5D8A59DE538C91C377C86B3092E36 /* Pods-GotBeerAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2064C01D39875FF837A47FFB18294128 /* Pods-GotBeerAppUITests-dummy.m */; };
+		CBA5D8A59DE538C91C377C86B3092E36 /* Pods-GotBeerAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6635B368BAB1C02C209ED310B8730489 /* Pods-GotBeerAppUITests-dummy.m */; };
 		CC656E781031AC1B4C2EB89C456C0844 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6BF2834B4C9B1A197739F3DBC038D /* Alamofire.swift */; };
 		CC713E3378F287550F010D361A3F4487 /* RxTabBarDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B641A31DBCDF64575B1EF4FEEF5810C /* RxTabBarDelegateProxy.swift */; };
 		CD951294210FCB4F24699C18A7EB986B /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F8D71018745271660B83A6AC87127 /* NSObject+Rx.swift */; };
+		D013A65614679F164030FAD21A849D1B /* Pods-GotBeerAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A7D3BC1662E8F24FCBF0DFD2AC7482 /* Pods-GotBeerAppTests-dummy.m */; };
 		D01E1AF1A0D38DB1F2DECA1FA43A7D58 /* SynchronizedOnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6536F5E76005E3258737728E85D017F6 /* SynchronizedOnType.swift */; };
 		D0F2E1AB8507BA499B94A4D32CF7E325 /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A91CCD574CBF34CB1FFE812AD9BBCA /* Dematerialize.swift */; };
 		D0F3B766AD0A49178232A92AF03292C7 /* URLSession+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E46CD0932ADF38424BF990187EA9 /* URLSession+Rx.swift */; };
@@ -298,7 +301,7 @@
 		D78BCE6A7D315A25BB07E793BBEFD517 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359A528D7BBFA1EA5B54C2C7DAB4343 /* Generate.swift */; };
 		D89A100D8427126050F5F6A3DD65EB87 /* ControlTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F457DDAE2C5F00B25A3224DA1B30D40 /* ControlTarget.swift */; };
 		DAB784BB60F3E20F389688F65D3FD40A /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D8E00E10B8070D6E0B16D221F59BE /* Empty.swift */; };
-		DB03152BD132E63D8E088018D5CC3F54 /* Pods-GotBeerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B89D2D7B470836571BFA17C8FD6D1C7 /* Pods-GotBeerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB03152BD132E63D8E088018D5CC3F54 /* Pods-GotBeerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0D8B130A84DEB5E189C31E9C474F99 /* Pods-GotBeerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB9C2CF4AE6D71F14D0E543587F81058 /* UITabBar+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9B9E714DDF756B37565C7A6446AC7 /* UITabBar+Rx.swift */; };
 		DCA9221B3596DE7D98EDA14C538E6CC1 /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A4D559A70136F801120C2D4242FA9D /* InvocableType.swift */; };
 		DCBE950AABC61F4C3F2967FC067A040A /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB197AD923F5E3CD14852D7B679C74DA /* Deprecated.swift */; };
@@ -391,6 +394,13 @@
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
+		A32040721AB56DED2AF3F6BD9DDCE3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62B00E8006E9BB1FC9F973909FEB65E;
+			remoteInfo = "Pods-GotBeerApp";
+		};
 		EC142512D7BEF4B65A08A3F3B82516CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -402,6 +412,7 @@
 
 /* Begin PBXFileReference section */
 		009F50501089DC156DA6DFAC9151611E /* ConcurrentDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentDispatchQueueScheduler.swift; path = RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift; sourceTree = "<group>"; };
+		015E7C2E0095586A93F0312743CED957 /* Pods-GotBeerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		02462E7F8A7BE375BC722EB11A4D258A /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		0249CFAB9AD80F591088F37F14B1C1A7 /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
 		031A973098D299CC9ED5771737DA9D27 /* RxSearchControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxSearchControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxSearchControllerDelegateProxy.swift; sourceTree = "<group>"; };
@@ -425,30 +436,34 @@
 		0BC8540DEF493F9F7B6A785068101DC8 /* AFResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFResult.swift; path = Source/AFResult.swift; sourceTree = "<group>"; };
 		0C3CBF992DF3D8ACD5B77513D7C3FC9A /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = RxCocoa/Deprecated.swift; sourceTree = "<group>"; };
 		0CA7E5A7BEB229C7571B83485B3CDB39 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
-		0CD815AE38FC90A2A3242031C46DD8DF /* Pods-GotBeerAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerAppUITests-Info.plist"; sourceTree = "<group>"; };
 		0E7623C3EC47E1E17E581D8B60C5B4AC /* KeyPathBinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyPathBinder.swift; path = RxCocoa/Common/KeyPathBinder.swift; sourceTree = "<group>"; };
+		0E7C9603908C0A7A6509B14CA3C17187 /* Pods-GotBeerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E9AD0BD9160CA92B438164206EF8B7E /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = RxSwift/Errors.swift; sourceTree = "<group>"; };
 		0F90AF44BD0B8596F01626D084D68A66 /* ControlProperty+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlProperty+Driver.swift"; path = "RxCocoa/Traits/Driver/ControlProperty+Driver.swift"; sourceTree = "<group>"; };
 		1025DF5C8746611B98ED547A5F7C1A38 /* UIControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+Rx.swift"; path = "RxCocoa/iOS/UIControl+Rx.swift"; sourceTree = "<group>"; };
 		1046A2A8098EE59E5BCD697AA67F144F /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = RxCocoa/Foundation/Logging.swift; sourceTree = "<group>"; };
+		11855866A247A5AA1F1BC8B481B05FB9 /* Pods-GotBeerAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GotBeerAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		11A64E7CC35B1FAF5692ADC15DA3F64D /* CompositeDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositeDisposable.swift; path = RxSwift/Disposables/CompositeDisposable.swift; sourceTree = "<group>"; };
 		12462FAEA53D50B03755DEE2F1BE1CA7 /* ObservableConvertibleType+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Driver.swift"; path = "RxCocoa/Traits/Driver/ObservableConvertibleType+Driver.swift"; sourceTree = "<group>"; };
 		143D2831E4FDA759F379C43C89846C74 /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = RxSwift/Observables/CompactMap.swift; sourceTree = "<group>"; };
 		15820F17BF5D01E78BC6D1FB5F1F6C67 /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
+		15835EC8E4A0B86810732C8C103D34BB /* Pods-GotBeerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GotBeerApp-dummy.m"; sourceTree = "<group>"; };
 		160CE324AEF630D51F2672EA2C7F8D22 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
 		16422753B483C0481D4BE13C16FBB680 /* UIDatePicker+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDatePicker+Rx.swift"; path = "RxCocoa/iOS/UIDatePicker+Rx.swift"; sourceTree = "<group>"; };
 		169AAA422E46B126BBAD577E53742277 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		17AA626D535B834BCAD49D87C69E9B36 /* SynchronizedDisposeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDisposeType.swift; path = RxSwift/Concurrency/SynchronizedDisposeType.swift; sourceTree = "<group>"; };
 		17C9C1459B64EF2F8EFA3842DAE9713B /* RxPickerViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDataSourceProxy.swift; sourceTree = "<group>"; };
+		17F50A2005B26F71BEDDA135CB0E107A /* Pods-GotBeerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GotBeerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1A55DF8815E5044209E744653FF326B4 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		1AC6A438F7121E46669DDA0027A9B928 /* Producer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Producer.swift; path = RxSwift/Observables/Producer.swift; sourceTree = "<group>"; };
+		1B548580515811859B43206A6FEEC7A6 /* Pods-GotBeerAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GotBeerAppTests-umbrella.h"; sourceTree = "<group>"; };
 		1CC8BFE1BCF8FA637F5E29965079692A /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = RxCocoa/Common/DelegateProxy.swift; sourceTree = "<group>"; };
 		1D969BAFF417A360EF1DF122D92EA576 /* BinaryDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDisposable.swift; path = RxSwift/Disposables/BinaryDisposable.swift; sourceTree = "<group>"; };
 		1E1B8F5043AE7592BFD95CCD30FFDE81 /* UIProgressView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIProgressView+Rx.swift"; path = "RxCocoa/iOS/UIProgressView+Rx.swift"; sourceTree = "<group>"; };
 		1E4483FC2F8357890B90FA423C5E8087 /* ObservableConvertibleType+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Signal.swift"; path = "RxCocoa/Traits/Signal/ObservableConvertibleType+Signal.swift"; sourceTree = "<group>"; };
 		1F8C48290FCFD6F38C0E9C92CF8DD16E /* NSImageView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImageView+Rx.swift"; path = "RxCocoa/macOS/NSImageView+Rx.swift"; sourceTree = "<group>"; };
+		1FBD933EDED503B71969ED9C6ED83E3E /* Pods-GotBeerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1FD9091BD5039B7FAF056190E8D4DE47 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		2064C01D39875FF837A47FFB18294128 /* Pods-GotBeerAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GotBeerAppUITests-dummy.m"; sourceTree = "<group>"; };
 		20AC215DE0C3D7C63C2481B57860F7DC /* Multicast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multicast.swift; path = RxSwift/Observables/Multicast.swift; sourceTree = "<group>"; };
 		20B591FD6CB6AF8EAB92B468B8559435 /* SchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulerType.swift; path = RxSwift/SchedulerType.swift; sourceTree = "<group>"; };
 		218E5002C02DCD209AD8D53DA882EF75 /* Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Merge.swift; path = RxSwift/Observables/Merge.swift; sourceTree = "<group>"; };
@@ -456,13 +471,14 @@
 		22E7CB5C31822C1123868D552137BFC1 /* RxCocoaRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RxCocoaRuntime.h; path = RxCocoa/Runtime/include/RxCocoaRuntime.h; sourceTree = "<group>"; };
 		243888500C7BF5B2ED31BC2F2DDAF065 /* ObservableType+PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+PrimitiveSequence.swift"; path = "RxSwift/Traits/ObservableType+PrimitiveSequence.swift"; sourceTree = "<group>"; };
 		243A2B6EDBEDDF4C33190F55EFF6BCF8 /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
-		2569F7AE360E2F9C9485A389675F2E65 /* Pods-GotBeerAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GotBeerAppUITests-umbrella.h"; sourceTree = "<group>"; };
 		2643B4B1B6D06BDCF96F05096979F1D8 /* RxPickerViewAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewAdapter.swift; path = RxCocoa/iOS/DataSources/RxPickerViewAdapter.swift; sourceTree = "<group>"; };
 		27A91CCD574CBF34CB1FFE812AD9BBCA /* Dematerialize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dematerialize.swift; path = RxSwift/Observables/Dematerialize.swift; sourceTree = "<group>"; };
 		2809E2ABE4E74007158745D3EB56EC8C /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = RxSwift/Observables/Window.swift; sourceTree = "<group>"; };
 		28BB92EF99289B78C800BF1DC117CF3D /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = RxCocoa/Traits/Driver/Driver.swift; sourceTree = "<group>"; };
+		291464FB3A1952B440EDC90680D78B85 /* Pods-GotBeerAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29CCA3BE3C003504A7D78622644DA258 /* Pods-GotBeerAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerAppUITests-Info.plist"; sourceTree = "<group>"; };
 		2B3561EC6ABBFD9D2EA6D81E7E1545C5 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
-		2B89D2D7B470836571BFA17C8FD6D1C7 /* Pods-GotBeerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GotBeerApp-umbrella.h"; sourceTree = "<group>"; };
+		2D0D8B130A84DEB5E189C31E9C474F99 /* Pods-GotBeerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GotBeerApp-umbrella.h"; sourceTree = "<group>"; };
 		2F06A1197C845276C19C9C71A1B0DED6 /* RxPickerViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDelegateProxy.swift; sourceTree = "<group>"; };
 		2FE8BCE562F592AA8AEAA3417F80C8A7 /* RxCollectionViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
 		3149C6646A72B92D15978CDBC2B3CE06 /* UINavigationController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Rx.swift"; path = "RxCocoa/iOS/UINavigationController+Rx.swift"; sourceTree = "<group>"; };
@@ -477,7 +493,6 @@
 		3582A562D21288AA581F4DDC624BA106 /* TakeLast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeLast.swift; path = RxSwift/Observables/TakeLast.swift; sourceTree = "<group>"; };
 		35B847138ECC06594DC70FD163FDDD0A /* Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeout.swift; path = RxSwift/Observables/Timeout.swift; sourceTree = "<group>"; };
 		37091981604C0E1772E46EE508133C66 /* ScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItem.swift; path = RxSwift/Schedulers/Internal/ScheduledItem.swift; sourceTree = "<group>"; };
-		387DD99741BE33947EE77C7B042EBA86 /* Pods-GotBeerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		38BAB985FE1F4C4527A144792E854AA4 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		39B6DDB5949CEB5342DC32FC21624039 /* UISwitch+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwitch+Rx.swift"; path = "RxCocoa/iOS/UISwitch+Rx.swift"; sourceTree = "<group>"; };
 		3A20A8B621BCD4EAC1CE10028B286C87 /* Driver+Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Driver+Subscription.swift"; path = "RxCocoa/Traits/Driver/Driver+Subscription.swift"; sourceTree = "<group>"; };
@@ -490,7 +505,6 @@
 		402F0C6DB7157DB823B245A182A07C45 /* NSTextStorage+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextStorage+Rx.swift"; path = "RxCocoa/iOS/NSTextStorage+Rx.swift"; sourceTree = "<group>"; };
 		4083A286FFB33851EA92D27BF6350E30 /* RxNavigationControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxNavigationControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxNavigationControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		40A4D559A70136F801120C2D4242FA9D /* InvocableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocableType.swift; path = RxSwift/Schedulers/Internal/InvocableType.swift; sourceTree = "<group>"; };
-		4183EFAF01E58C9E88E7CD2B389E5C07 /* Pods-GotBeerAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GotBeerAppUITests.modulemap"; sourceTree = "<group>"; };
 		41A1D3383A5D5EF5DB20AC8D58C05ACD /* RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryWhen.swift; path = RxSwift/Observables/RetryWhen.swift; sourceTree = "<group>"; };
 		4284AD0428BE71FA590EC5D156999756 /* TakeWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeWhile.swift; path = RxSwift/Observables/TakeWhile.swift; sourceTree = "<group>"; };
 		43344833E041A47F26DA2997EC35D792 /* UISearchBar+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchBar+Rx.swift"; path = "RxCocoa/iOS/UISearchBar+Rx.swift"; sourceTree = "<group>"; };
@@ -502,20 +516,19 @@
 		4699BEBD389F5D3966C112A3EAD976B6 /* LockOwnerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockOwnerType.swift; path = RxSwift/Concurrency/LockOwnerType.swift; sourceTree = "<group>"; };
 		46AE3A9A0546B1A2CA57590671D3890B /* ScheduledItemType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItemType.swift; path = RxSwift/Schedulers/Internal/ScheduledItemType.swift; sourceTree = "<group>"; };
 		475AEA279793072AE4A54B2AFC37575F /* SharedSequence+Operators+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SharedSequence+Operators+arity.swift"; path = "RxCocoa/Traits/SharedSequence/SharedSequence+Operators+arity.swift"; sourceTree = "<group>"; };
-		4798AA332BADDB337101DC19C314225D /* Pods-GotBeerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerApp.release.xcconfig"; sourceTree = "<group>"; };
 		4964F7C782E57E03C39F3C873BC714CF /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		4AC8118F28BAB206DF02FE7203729D16 /* RxRelay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxRelay-dummy.m"; sourceTree = "<group>"; };
 		4ACA72131F81175C1EEBB159E3B58CE0 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		4AED1FCFC5580C700E399B8B962D3556 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		4B1ECB64A8F43494FD8048483F887094 /* RxTextViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTextViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTextViewDelegateProxy.swift; sourceTree = "<group>"; };
 		4DF50699291A407A8841DCA69A3CEB64 /* Zip+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+Collection.swift"; path = "RxSwift/Observables/Zip+Collection.swift"; sourceTree = "<group>"; };
+		4DFBE16CF106E1B7ABD33E09853D1BED /* Pods-GotBeerAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GotBeerAppTests.modulemap"; sourceTree = "<group>"; };
 		4E20DFCB80305E0886D512D73B2B5454 /* ConnectableObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectableObservableType.swift; path = RxSwift/ConnectableObservableType.swift; sourceTree = "<group>"; };
 		50B7ACAE7422EB77EEAAB57E9EAF99BA /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		519418A608AF2E5BB3B75662134829D2 /* _RXKVOObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RXKVOObserver.m; path = RxCocoa/Runtime/_RXKVOObserver.m; sourceTree = "<group>"; };
 		52EE0548FC54F486E25C8313C41D9711 /* UIPageControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageControl+Rx.swift"; path = "RxCocoa/iOS/UIPageControl+Rx.swift"; sourceTree = "<group>"; };
 		5353965D47966F7EA24B4EE8111D4C09 /* Scan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scan.swift; path = RxSwift/Observables/Scan.swift; sourceTree = "<group>"; };
 		54FA4DEBCF803167DEF04DD73ABB84FE /* UIButton+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Rx.swift"; path = "RxCocoa/iOS/UIButton+Rx.swift"; sourceTree = "<group>"; };
-		5541E596112E5A46EE091F692E5109C0 /* Pods-GotBeerAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GotBeerAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		555D385E4080C6A0BEBAD6818E7C634E /* RxCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxCocoa-prefix.pch"; sourceTree = "<group>"; };
 		559BE08531E73F27CA1744CC8FCEC6A4 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
 		56EACF2C06E7E83C987E3297B38AA668 /* ObserverBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverBase.swift; path = RxSwift/Observers/ObserverBase.swift; sourceTree = "<group>"; };
@@ -523,6 +536,7 @@
 		5A08C1701A4A0B0929456CF451769FDC /* AsyncLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncLock.swift; path = RxSwift/Concurrency/AsyncLock.swift; sourceTree = "<group>"; };
 		5A1168709D4AC9CC9A878CCA7339DBE2 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		5A298002B055A685AFAECD5DA47FA2DF /* RxTabBarControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarControllerDelegateProxy.swift; sourceTree = "<group>"; };
+		5AACFD76477125D745E27BF28EF2BDDF /* Pods-GotBeerApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerApp-Info.plist"; sourceTree = "<group>"; };
 		5BD49F513393249315730A8BA42F99AB /* NSControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSControl+Rx.swift"; path = "RxCocoa/macOS/NSControl+Rx.swift"; sourceTree = "<group>"; };
 		5CA0B9911C83799681DF67EC421FA2AC /* Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zip.swift; path = RxSwift/Observables/Zip.swift; sourceTree = "<group>"; };
 		5CFA8FA80431AA6D813399012D570C51 /* UIApplication+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Rx.swift"; path = "RxCocoa/iOS/UIApplication+Rx.swift"; sourceTree = "<group>"; };
@@ -532,10 +546,12 @@
 		5F457DDAE2C5F00B25A3224DA1B30D40 /* ControlTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlTarget.swift; path = RxCocoa/Common/ControlTarget.swift; sourceTree = "<group>"; };
 		61B0240205BEBEAD9B076D8C4A5C2C9F /* SubjectType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubjectType.swift; path = RxSwift/Subjects/SubjectType.swift; sourceTree = "<group>"; };
 		6209AF5802854B6EF30A84CE690EF1DB /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
+		634096E32043F19BA7C2B5C4C7790EEE /* Pods-GotBeerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GotBeerApp.modulemap"; sourceTree = "<group>"; };
 		6401C172B0C40CD9411BB458B3B8857F /* UIStepper+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStepper+Rx.swift"; path = "RxCocoa/iOS/UIStepper+Rx.swift"; sourceTree = "<group>"; };
 		642DC28E63B781101B916267E84B4F76 /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = RxSwift/Observables/Timer.swift; sourceTree = "<group>"; };
 		6536F5E76005E3258737728E85D017F6 /* SynchronizedOnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedOnType.swift; path = RxSwift/Concurrency/SynchronizedOnType.swift; sourceTree = "<group>"; };
 		6581A858D5EF7C5D2897AA5C32625E3C /* AsMaybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsMaybe.swift; path = RxSwift/Observables/AsMaybe.swift; sourceTree = "<group>"; };
+		6635B368BAB1C02C209ED310B8730489 /* Pods-GotBeerAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GotBeerAppUITests-dummy.m"; sourceTree = "<group>"; };
 		665F493D530E68220D97E5819B6F94D3 /* RxTableViewDataSourcePrefetchingProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourcePrefetchingProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDataSourcePrefetchingProxy.swift; sourceTree = "<group>"; };
 		68174A32F5A0C5E653081C4327DA7822 /* ElementAt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementAt.swift; path = RxSwift/Observables/ElementAt.swift; sourceTree = "<group>"; };
 		68E4C3F1F50B15FB4D9DC4722B384F06 /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = RxSwift/Observables/Debug.swift; sourceTree = "<group>"; };
@@ -555,7 +571,6 @@
 		717533B19FA96316BB6FCE9D0D9178BE /* Single.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Single.swift; path = RxSwift/Traits/Single.swift; sourceTree = "<group>"; };
 		72155DBD533683967201F9FF9363AF6E /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
 		722E61543EE4B2AD0955963F9CE85B7E /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		72AFE37BD01C143D66F5F775C42BE393 /* Pods-GotBeerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GotBeerApp.modulemap"; sourceTree = "<group>"; };
 		73723665A13D636C58238FC5F7C05820 /* ToArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToArray.swift; path = RxSwift/Observables/ToArray.swift; sourceTree = "<group>"; };
 		744C036D385F503E67D53CFCBE9DACE0 /* SharedSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedSequence.swift; path = RxCocoa/Traits/SharedSequence/SharedSequence.swift; sourceTree = "<group>"; };
 		75309F765D65B642F185C2D4F275867F /* Materialize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Materialize.swift; path = RxSwift/Observables/Materialize.swift; sourceTree = "<group>"; };
@@ -565,8 +580,10 @@
 		786AD637709DF71B264C7AF7DA2DA518 /* CurrentThreadScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentThreadScheduler.swift; path = RxSwift/Schedulers/CurrentThreadScheduler.swift; sourceTree = "<group>"; };
 		790168B01EEB5BAF2F9836A2D989AAA7 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		798575DB0F82F84FB99CF71612FE2F7B /* Sink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sink.swift; path = RxSwift/Observables/Sink.swift; sourceTree = "<group>"; };
+		7E0C765CE899E059CCDD6C2D1D1C510F /* Pods-GotBeerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7E1D8E00E10B8070D6E0B16D221F59BE /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = RxSwift/Observables/Empty.swift; sourceTree = "<group>"; };
 		7E3F55EB295DA28885128014351C0D77 /* RxTableViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxTableViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
+		7F6DB7863EAEB3A7C726920ABBF6533F /* Pods_GotBeerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GotBeerAppTests.framework; path = "Pods-GotBeerAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F84E7C9C7282544BFC882FAA291D5BB /* ControlEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlEvent.swift; path = RxCocoa/Traits/ControlEvent.swift; sourceTree = "<group>"; };
 		7FAD947ED86B789882AAF8EA49209BD7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		7FBC426D24AC19A06B621120FEBC26A6 /* RxRelay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxRelay-Info.plist"; sourceTree = "<group>"; };
@@ -574,10 +591,10 @@
 		80C711C3BC85E51D3ECD0DC619CD2AE9 /* OperationQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationQueueScheduler.swift; path = RxSwift/Schedulers/OperationQueueScheduler.swift; sourceTree = "<group>"; };
 		80F1B88539C092FE6DBAC6FDC4759A86 /* Skip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skip.swift; path = RxSwift/Observables/Skip.swift; sourceTree = "<group>"; };
 		812CAD5A22F368DAD1499B57C92782CD /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
-		8197D691DB8A6B8A4015D59ABB8752F7 /* Pods-GotBeerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		81984F02C93198CF4BCE1DF1B6A42277 /* Pods_GotBeerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GotBeerAppUITests.framework; path = "Pods-GotBeerAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		826CFF49BF438AC72A9653C8374AD127 /* RxTableViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDelegateProxy.swift; sourceTree = "<group>"; };
 		82DF0DB87D1722AA3F54DE93BC3F016D /* ObserveOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserveOn.swift; path = RxSwift/Observables/ObserveOn.swift; sourceTree = "<group>"; };
+		83BE539789F9BB684B03FB8A93AD06D7 /* Pods-GotBeerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		83D73284DCEE4FE8C76234DE2ACCD393 /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84854D205D71AB8678709FF3E147FC4B /* Date+Dispatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Dispatch.swift"; path = "RxSwift/Date+Dispatch.swift"; sourceTree = "<group>"; };
 		85F2500941017AADE94E1B34427FF3FC /* RxRelay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxRelay.modulemap; sourceTree = "<group>"; };
@@ -591,7 +608,6 @@
 		8B6E2CB466C70A3B6F60B17BEB3E8862 /* Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rx.swift; path = RxSwift/Rx.swift; sourceTree = "<group>"; };
 		8C5DC39675D19E94BFEDE681FA1581CC /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		8C74617D797D9EA063F3A8CF36511616 /* _RXObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXObjCRuntime.h; path = RxCocoa/Runtime/include/_RXObjCRuntime.h; sourceTree = "<group>"; };
-		8DBFBEAAF16C0FF1752DC660BED647D9 /* Pods-GotBeerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GotBeerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E46552F141E717C4352CA6D535C00B4 /* RxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-prefix.pch"; sourceTree = "<group>"; };
 		8E737426CBA59C5EE3899E4BB38F56C5 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence.swift; sourceTree = "<group>"; };
 		8F2A1F5259F7A86C84023EA1894E0A77 /* AnonymousDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousDisposable.swift; path = RxSwift/Disposables/AnonymousDisposable.swift; sourceTree = "<group>"; };
@@ -619,7 +635,6 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5DC5BE221956FD0042CC3EAEAF27A8 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableConvertibleType.swift; path = RxSwift/ObservableConvertibleType.swift; sourceTree = "<group>"; };
 		9EAA202B9A0B625124FC226D1870B5B8 /* RxCollectionViewDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewDataSourceType.swift; path = RxCocoa/iOS/Protocols/RxCollectionViewDataSourceType.swift; sourceTree = "<group>"; };
-		9EBF805ECB3B0F839398DB8B0A9117C4 /* Pods-GotBeerApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GotBeerApp-frameworks.sh"; sourceTree = "<group>"; };
 		9EFB4C62EEDE9AD37B1B81775D7EFEF7 /* RxCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxCocoa-umbrella.h"; sourceTree = "<group>"; };
 		9F364E4AF7F8F0AB9BF2FF2332B7F4E7 /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalSchedulerTimeConverter.swift; path = RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
 		9F54CE69DCC6EC4CD8F7F1AFE4219639 /* ObservableConvertibleType+SharedSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+SharedSequence.swift"; path = "RxCocoa/Traits/SharedSequence/ObservableConvertibleType+SharedSequence.swift"; sourceTree = "<group>"; };
@@ -651,6 +666,7 @@
 		B1335A2E87363662EEA866A67F8B362A /* UINavigationItem+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationItem+Rx.swift"; path = "RxCocoa/iOS/UINavigationItem+Rx.swift"; sourceTree = "<group>"; };
 		B1D3C6B3408EA9B0D1D0FDA9F6A2DE75 /* Observable+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Bind.swift"; path = "RxRelay/Observable+Bind.swift"; sourceTree = "<group>"; };
 		B22174538D2F2F1FA682DAD1CC783B84 /* TextInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInput.swift; path = RxCocoa/Common/TextInput.swift; sourceTree = "<group>"; };
+		B292EAF85DE0E24D7E0D7C204DD29BE5 /* Pods-GotBeerAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerAppTests-Info.plist"; sourceTree = "<group>"; };
 		B33E491D38CE1A8910E39A36FE785C8D /* RecursiveScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveScheduler.swift; path = RxSwift/Schedulers/RecursiveScheduler.swift; sourceTree = "<group>"; };
 		B43B5C969F1C283A431CD8DE392B5A88 /* RxCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxCocoa.xcconfig; sourceTree = "<group>"; };
 		B4A80C91FBFB323A067EE48F96496377 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
@@ -659,7 +675,6 @@
 		B7D3CD91FB4A2932A0A97640FE287B42 /* UITextField+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Rx.swift"; path = "RxCocoa/iOS/UITextField+Rx.swift"; sourceTree = "<group>"; };
 		B861202F635CF24193464A7F54223C6B /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
 		B8BDC8BE74E84441A1B3E1C27D8E8A2B /* UISearchController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchController+Rx.swift"; path = "RxCocoa/iOS/UISearchController+Rx.swift"; sourceTree = "<group>"; };
-		B962263662361E8820FC86F4321B603A /* Pods-GotBeerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B99192748FF4A0FF5E2CCD8851B94D66 /* RxScrollViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxScrollViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxScrollViewDelegateProxy.swift; sourceTree = "<group>"; };
 		BA0E1187390798C7BF1838BCEF994BCF /* Reactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reactive.swift; path = RxSwift/Reactive.swift; sourceTree = "<group>"; };
 		BA57DB80011432A20A7EB764E074782B /* UITableView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Rx.swift"; path = "RxCocoa/iOS/UITableView+Rx.swift"; sourceTree = "<group>"; };
@@ -668,7 +683,7 @@
 		BCE15BA9F6B9243BE154BD06325AD0BC /* Deferred.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deferred.swift; path = RxSwift/Observables/Deferred.swift; sourceTree = "<group>"; };
 		BD1B5B8FA40A60E6BB4814744ACD4D06 /* UITextView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Rx.swift"; path = "RxCocoa/iOS/UITextView+Rx.swift"; sourceTree = "<group>"; };
 		BD69DB376CC5617445B016E9A398D174 /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = RxSwift/Observables/Debounce.swift; sourceTree = "<group>"; };
-		BDDF3015CD54933BA20AD7F71BBED1AF /* Pods-GotBeerApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerApp-Info.plist"; sourceTree = "<group>"; };
+		BD8AC55A5E55D881D97F1E286994752A /* Pods-GotBeerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDFC832F6C98C82664CD8808DEC8356C /* Completable+AndThen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Completable+AndThen.swift"; path = "RxSwift/Traits/Completable+AndThen.swift"; sourceTree = "<group>"; };
 		BF29C01F6936EA55D34ADA079FD88660 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = RxSwift/Observables/Map.swift; sourceTree = "<group>"; };
 		BF65E3D77B1ED5D6A18827BE5233CF0A /* SharedSequence+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SharedSequence+Operators.swift"; path = "RxCocoa/Traits/SharedSequence/SharedSequence+Operators.swift"; sourceTree = "<group>"; };
@@ -676,11 +691,11 @@
 		C1309A38FF8BD93DE0AC5C2271330FD8 /* RxSearchBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxSearchBarDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxSearchBarDelegateProxy.swift; sourceTree = "<group>"; };
 		C20531978F1825D65867B1AE0F11143A /* CombineLatest+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+Collection.swift"; path = "RxSwift/Observables/CombineLatest+Collection.swift"; sourceTree = "<group>"; };
 		C2A334DD6F963C41FE7807B028C5C133 /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = RxSwift/Observables/Delay.swift; sourceTree = "<group>"; };
-		C2FA47A83B8E7E757ED22F0A5856A2FC /* Pods-GotBeerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C37B90B42D0463A54AA6F69EE3B21048 /* String+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Rx.swift"; path = "RxSwift/Extensions/String+Rx.swift"; sourceTree = "<group>"; };
 		C3ACBE93F53E1ED2F476D31DA5248719 /* _RX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RX.h; path = RxCocoa/Runtime/include/_RX.h; sourceTree = "<group>"; };
 		C48C84AE7BB17F3E012DF57137F8C123 /* Cancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancelable.swift; path = RxSwift/Cancelable.swift; sourceTree = "<group>"; };
 		C53A3376110E7DC90F77801D13D45EB3 /* UISlider+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Rx.swift"; path = "RxCocoa/iOS/UISlider+Rx.swift"; sourceTree = "<group>"; };
+		C545229FF43E1240361B249BD9BEF2C8 /* Pods-GotBeerAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GotBeerAppUITests.modulemap"; sourceTree = "<group>"; };
 		C5BD16DDCE9DE27F02EE96E360EB1B01 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		C68BB23386E584DC0F2C70374FE091DB /* Using.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Using.swift; path = RxSwift/Observables/Using.swift; sourceTree = "<group>"; };
 		C6F06C0DBA5DE401B2E23CEF14D26FDA /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
@@ -699,13 +714,13 @@
 		CF5DBED7004055C9B3C97E9095D93C3F /* Observable+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Bind.swift"; path = "RxCocoa/Common/Observable+Bind.swift"; sourceTree = "<group>"; };
 		CF9F491F6A2601C10291ED0D0FCA4EFE /* Take.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Take.swift; path = RxSwift/Observables/Take.swift; sourceTree = "<group>"; };
 		D020B6D853B29416E858C989526AA72C /* DispatchQueueConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueConfiguration.swift; path = RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift; sourceTree = "<group>"; };
-		D091C36A427EA2D4BDA1CF08CE8DF1B2 /* Pods-GotBeerAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0ACA9689A54F127AD3D978C6CAB812B /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
 		D0CE4795F173FB54CD2B1E620188817E /* RxCocoa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxCocoa-Info.plist"; sourceTree = "<group>"; };
 		D0E697CBCC7EE94D2AF468ABB85479D9 /* Pods_GotBeerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GotBeerApp.framework; path = "Pods-GotBeerApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10973004988EBAA53811453AC1467DD /* RxCocoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RxCocoa.h; path = RxCocoa/RxCocoa.h; sourceTree = "<group>"; };
 		D19574BE807A846C54A44C4E405A8F66 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Rx.swift"; path = "RxCocoa/iOS/UIViewController+Rx.swift"; sourceTree = "<group>"; };
 		D2A228CEE490D1E1ED8FFE117F1B26B2 /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
+		D3A7D3BC1662E8F24FCBF0DFD2AC7482 /* Pods-GotBeerAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GotBeerAppTests-dummy.m"; sourceTree = "<group>"; };
 		D49A3151E257BA97F87E1D028D89E986 /* NSTextField+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextField+Rx.swift"; path = "RxCocoa/macOS/NSTextField+Rx.swift"; sourceTree = "<group>"; };
 		D4E22A73C8C2F85AD685371E363DD0B8 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		D4F5CAC3DFDC297B2C56D647BF7C7813 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -721,24 +736,28 @@
 		E147EFB02017C37FF7105871856084E3 /* CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineLatest.swift; path = RxSwift/Observables/CombineLatest.swift; sourceTree = "<group>"; };
 		E2409AA9670D0CBE70DDF1B5B20A9430 /* _RX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RX.m; path = RxCocoa/Runtime/_RX.m; sourceTree = "<group>"; };
 		E2E07F921E4DC3FE032C821860B7A53B /* SerialDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDisposable.swift; path = RxSwift/Disposables/SerialDisposable.swift; sourceTree = "<group>"; };
-		E48D5FC5AF7B299C3F5649B011DD70D7 /* Pods-GotBeerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GotBeerApp-dummy.m"; sourceTree = "<group>"; };
 		E552859C4C4E359A22B69B87891E95BA /* RxCollectionViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxCollectionViewDelegateProxy.swift; sourceTree = "<group>"; };
 		E602A85082A0EABE6F5FC4FBF21E6F3B /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		E602C9B7BDCC444F61ED5459C028E559 /* _RXKVOObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXKVOObserver.h; path = RxCocoa/Runtime/include/_RXKVOObserver.h; sourceTree = "<group>"; };
 		E65D21A0D26DC9D40DF1156244937A7A /* ObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableType.swift; path = RxSwift/ObservableType.swift; sourceTree = "<group>"; };
 		E68925BAAA4A67A7FF5B8CC8D6CE9927 /* Amb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Amb.swift; path = RxSwift/Observables/Amb.swift; sourceTree = "<group>"; };
+		E9316874B00D62F01A8752DA282ED64A /* Pods-GotBeerAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GotBeerAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E9512EF6223481EC35318EEC1CEA5B78 /* MainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainScheduler.swift; path = RxSwift/Schedulers/MainScheduler.swift; sourceTree = "<group>"; };
 		E9741B21DD5CB387EBF278D25EB8F0EA /* NopDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NopDisposable.swift; path = RxSwift/Disposables/NopDisposable.swift; sourceTree = "<group>"; };
+		E99C717923DE13B281855B884F1D1ADA /* Pods-GotBeerAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GotBeerAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E9A95BA3D296E8D819FFACF3D90C47FE /* AnonymousObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousObserver.swift; path = RxSwift/Observers/AnonymousObserver.swift; sourceTree = "<group>"; };
 		E9BC204E2DC58CCEF54F43FE5702A94B /* SectionedViewDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionedViewDataSourceType.swift; path = RxCocoa/Common/SectionedViewDataSourceType.swift; sourceTree = "<group>"; };
+		EAF89B23211BE0E0FA2E13C8E5A4639C /* Pods-GotBeerApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GotBeerApp-frameworks.sh"; sourceTree = "<group>"; };
 		EB3B9FB885A048019D97CC48E71BD823 /* NSObject+Rx+KVORepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx+KVORepresentable.swift"; path = "RxCocoa/Foundation/NSObject+Rx+KVORepresentable.swift"; sourceTree = "<group>"; };
 		EB3D4D889577D2BE38592EE5FCBDA210 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		EB5B6A4EE1A2BFF2985A68825EDA9B89 /* ReplaySubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaySubject.swift; path = RxSwift/Subjects/ReplaySubject.swift; sourceTree = "<group>"; };
+		EBBC49971937C57C8371BA1A5E8889C0 /* Pods-GotBeerAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GotBeerAppUITests-umbrella.h"; sourceTree = "<group>"; };
 		EC19FB475A75ADD07A92EC6BDF5F89D2 /* ControlEvent+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlEvent+Driver.swift"; path = "RxCocoa/Traits/Driver/ControlEvent+Driver.swift"; sourceTree = "<group>"; };
 		EC97671E46E0B9FAEEFB1F85DE6BAC9F /* RefCountDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefCountDisposable.swift; path = RxSwift/Disposables/RefCountDisposable.swift; sourceTree = "<group>"; };
 		ED8C52C27378043440D5A8EBE22C097D /* NotificationCenter+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationCenter+Rx.swift"; path = "RxCocoa/Foundation/NotificationCenter+Rx.swift"; sourceTree = "<group>"; };
 		EEC6BF2834B4C9B1A197739F3DBC038D /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		F06F8D71018745271660B83A6AC87127 /* NSObject+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx.swift"; path = "RxCocoa/Foundation/NSObject+Rx.swift"; sourceTree = "<group>"; };
+		F0A55D85919BE609B68471B2B788BDE9 /* Pods-GotBeerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GotBeerApp.release.xcconfig"; sourceTree = "<group>"; };
 		F0F94F8FD0E3180A29A5F8D56AC7FD85 /* BooleanDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanDisposable.swift; path = RxSwift/Disposables/BooleanDisposable.swift; sourceTree = "<group>"; };
 		F15A7E5E9907EE060322BBA919A43C69 /* UILabel+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Rx.swift"; path = "RxCocoa/iOS/UILabel+Rx.swift"; sourceTree = "<group>"; };
 		F2A2495E0B52B8BEF8F7BEF84AFC33C6 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = RxSwift/Event.swift; sourceTree = "<group>"; };
@@ -783,6 +802,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55467E9A402A0705689D8AF1955B55D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322B82B4E1D1784B50F59A99156DAA72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E6DDF030226627FA05CD68A14292DEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -821,6 +848,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2037A7947558C83444969199616FB927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				D0E697CBCC7EE94D2AF468ABB85479D9 /* Pods_GotBeerApp.framework */,
+				7F6DB7863EAEB3A7C726920ABBF6533F /* Pods_GotBeerAppTests.framework */,
+				81984F02C93198CF4BCE1DF1B6A42277 /* Pods_GotBeerAppUITests.framework */,
+				BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */,
+				FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */,
+				809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322D5E9A1D872CC4F769B2E9932C5FD2 /* Pods-GotBeerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C545229FF43E1240361B249BD9BEF2C8 /* Pods-GotBeerAppUITests.modulemap */,
+				E9316874B00D62F01A8752DA282ED64A /* Pods-GotBeerAppUITests-acknowledgements.markdown */,
+				E99C717923DE13B281855B884F1D1ADA /* Pods-GotBeerAppUITests-acknowledgements.plist */,
+				6635B368BAB1C02C209ED310B8730489 /* Pods-GotBeerAppUITests-dummy.m */,
+				29CCA3BE3C003504A7D78622644DA258 /* Pods-GotBeerAppUITests-Info.plist */,
+				EBBC49971937C57C8371BA1A5E8889C0 /* Pods-GotBeerAppUITests-umbrella.h */,
+				BD8AC55A5E55D881D97F1E286994752A /* Pods-GotBeerAppUITests.debug.xcconfig */,
+				1FBD933EDED503B71969ED9C6ED83E3E /* Pods-GotBeerAppUITests.release.xcconfig */,
+			);
+			name = "Pods-GotBeerAppUITests";
+			path = "Target Support Files/Pods-GotBeerAppUITests";
+			sourceTree = "<group>";
+		};
 		3AAF1869CB50E4B21BC3FC17A80A1FA4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -832,20 +889,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		46A031570EB03377BC6DC7113821E868 /* Pods-GotBeerAppUITests */ = {
+		41311F2AEFE4DF6F6DBFEDB6FA2C736E /* Pods-GotBeerAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				4183EFAF01E58C9E88E7CD2B389E5C07 /* Pods-GotBeerAppUITests.modulemap */,
-				5541E596112E5A46EE091F692E5109C0 /* Pods-GotBeerAppUITests-acknowledgements.markdown */,
-				D091C36A427EA2D4BDA1CF08CE8DF1B2 /* Pods-GotBeerAppUITests-acknowledgements.plist */,
-				2064C01D39875FF837A47FFB18294128 /* Pods-GotBeerAppUITests-dummy.m */,
-				0CD815AE38FC90A2A3242031C46DD8DF /* Pods-GotBeerAppUITests-Info.plist */,
-				2569F7AE360E2F9C9485A389675F2E65 /* Pods-GotBeerAppUITests-umbrella.h */,
-				C2FA47A83B8E7E757ED22F0A5856A2FC /* Pods-GotBeerAppUITests.debug.xcconfig */,
-				B962263662361E8820FC86F4321B603A /* Pods-GotBeerAppUITests.release.xcconfig */,
+				4DFBE16CF106E1B7ABD33E09853D1BED /* Pods-GotBeerAppTests.modulemap */,
+				11855866A247A5AA1F1BC8B481B05FB9 /* Pods-GotBeerAppTests-acknowledgements.markdown */,
+				291464FB3A1952B440EDC90680D78B85 /* Pods-GotBeerAppTests-acknowledgements.plist */,
+				D3A7D3BC1662E8F24FCBF0DFD2AC7482 /* Pods-GotBeerAppTests-dummy.m */,
+				B292EAF85DE0E24D7E0D7C204DD29BE5 /* Pods-GotBeerAppTests-Info.plist */,
+				1B548580515811859B43206A6FEEC7A6 /* Pods-GotBeerAppTests-umbrella.h */,
+				0E7C9603908C0A7A6509B14CA3C17187 /* Pods-GotBeerAppTests.debug.xcconfig */,
+				7E0C765CE899E059CCDD6C2D1D1C510F /* Pods-GotBeerAppTests.release.xcconfig */,
 			);
-			name = "Pods-GotBeerAppUITests";
-			path = "Target Support Files/Pods-GotBeerAppUITests";
+			name = "Pods-GotBeerAppTests";
+			path = "Target Support Files/Pods-GotBeerAppTests";
 			sourceTree = "<group>";
 		};
 		48AB16842A5F7FA085FF7A16DFEC569F /* RxSwift */ = {
@@ -1008,19 +1065,6 @@
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
-		5DF4D2813CA7E77C63105F809080A004 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				D0E697CBCC7EE94D2AF468ABB85479D9 /* Pods_GotBeerApp.framework */,
-				81984F02C93198CF4BCE1DF1B6A42277 /* Pods_GotBeerAppUITests.framework */,
-				BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */,
-				FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */,
-				809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6B578CE25EDA6FC0D1EB51A6A91C4768 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1033,15 +1077,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RxRelay";
-			sourceTree = "<group>";
-		};
-		6E60BCAF680D7A7B72A073B0B7911719 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AFB75088B5EFC3C7446C19B7E9B66071 /* Pods-GotBeerApp */,
-				46A031570EB03377BC6DC7113821E868 /* Pods-GotBeerAppUITests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		73BAB2B6D263F231ECC40C0A4D3D6242 /* Alamofire */ = {
@@ -1263,21 +1298,31 @@
 			path = RxRelay;
 			sourceTree = "<group>";
 		};
-		AFB75088B5EFC3C7446C19B7E9B66071 /* Pods-GotBeerApp */ = {
+		C22476745CF55BE52BF6805C92CC8300 /* Pods-GotBeerApp */ = {
 			isa = PBXGroup;
 			children = (
-				72AFE37BD01C143D66F5F775C42BE393 /* Pods-GotBeerApp.modulemap */,
-				8DBFBEAAF16C0FF1752DC660BED647D9 /* Pods-GotBeerApp-acknowledgements.markdown */,
-				8197D691DB8A6B8A4015D59ABB8752F7 /* Pods-GotBeerApp-acknowledgements.plist */,
-				E48D5FC5AF7B299C3F5649B011DD70D7 /* Pods-GotBeerApp-dummy.m */,
-				9EBF805ECB3B0F839398DB8B0A9117C4 /* Pods-GotBeerApp-frameworks.sh */,
-				BDDF3015CD54933BA20AD7F71BBED1AF /* Pods-GotBeerApp-Info.plist */,
-				2B89D2D7B470836571BFA17C8FD6D1C7 /* Pods-GotBeerApp-umbrella.h */,
-				387DD99741BE33947EE77C7B042EBA86 /* Pods-GotBeerApp.debug.xcconfig */,
-				4798AA332BADDB337101DC19C314225D /* Pods-GotBeerApp.release.xcconfig */,
+				634096E32043F19BA7C2B5C4C7790EEE /* Pods-GotBeerApp.modulemap */,
+				17F50A2005B26F71BEDDA135CB0E107A /* Pods-GotBeerApp-acknowledgements.markdown */,
+				83BE539789F9BB684B03FB8A93AD06D7 /* Pods-GotBeerApp-acknowledgements.plist */,
+				15835EC8E4A0B86810732C8C103D34BB /* Pods-GotBeerApp-dummy.m */,
+				EAF89B23211BE0E0FA2E13C8E5A4639C /* Pods-GotBeerApp-frameworks.sh */,
+				5AACFD76477125D745E27BF28EF2BDDF /* Pods-GotBeerApp-Info.plist */,
+				2D0D8B130A84DEB5E189C31E9C474F99 /* Pods-GotBeerApp-umbrella.h */,
+				015E7C2E0095586A93F0312743CED957 /* Pods-GotBeerApp.debug.xcconfig */,
+				F0A55D85919BE609B68471B2B788BDE9 /* Pods-GotBeerApp.release.xcconfig */,
 			);
 			name = "Pods-GotBeerApp";
 			path = "Target Support Files/Pods-GotBeerApp";
+			sourceTree = "<group>";
+		};
+		CEE55B75A89D8AEC75176D550854386E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C22476745CF55BE52BF6805C92CC8300 /* Pods-GotBeerApp */,
+				41311F2AEFE4DF6F6DBFEDB6FA2C736E /* Pods-GotBeerAppTests */,
+				322D5E9A1D872CC4F769B2E9932C5FD2 /* Pods-GotBeerAppUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1286,8 +1331,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A6EEDDCEDADF3C175A8BCD2F569758F4 /* Frameworks */,
 				3AAF1869CB50E4B21BC3FC17A80A1FA4 /* Pods */,
-				5DF4D2813CA7E77C63105F809080A004 /* Products */,
-				6E60BCAF680D7A7B72A073B0B7911719 /* Targets Support Files */,
+				2037A7947558C83444969199616FB927 /* Products */,
+				CEE55B75A89D8AEC75176D550854386E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1333,6 +1378,14 @@
 				95E5AA5F7C9CA156C334D08328EF72D4 /* RxCocoa-umbrella.h in Headers */,
 				6B618D8099888409BA82F9AC21D931C0 /* RxCocoa.h in Headers */,
 				166FD42123ACB3FA0865A7414E44E5E0 /* RxCocoaRuntime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB4D58512D315EEF18F2751708738C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C65314146866E5E9B13C30096FA00 /* Pods-GotBeerAppTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1415,6 +1468,25 @@
 			name = "Pods-GotBeerAppUITests";
 			productName = "Pods-GotBeerAppUITests";
 			productReference = 81984F02C93198CF4BCE1DF1B6A42277 /* Pods_GotBeerAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		683963BED80E70296CF037A828B3BE3A /* Pods-GotBeerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F95534E68F58ACFE33043D71134549A /* Build configuration list for PBXNativeTarget "Pods-GotBeerAppTests" */;
+			buildPhases = (
+				3EB4D58512D315EEF18F2751708738C7 /* Headers */,
+				A04531BF97D455D00BE14C1FD7A3F87C /* Sources */,
+				55467E9A402A0705689D8AF1955B55D7 /* Frameworks */,
+				64603A68007CE74F1927AEF9223FB364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7AA59115DCDCEAE2264279A82A6C54 /* PBXTargetDependency */,
+			);
+			name = "Pods-GotBeerAppTests";
+			productName = "Pods-GotBeerAppTests";
+			productReference = 7F6DB7863EAEB3A7C726920ABBF6533F /* Pods_GotBeerAppTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */ = {
@@ -1512,12 +1584,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5DF4D2813CA7E77C63105F809080A004 /* Products */;
+			productRefGroup = 2037A7947558C83444969199616FB927 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				C62B00E8006E9BB1FC9F973909FEB65E /* Pods-GotBeerApp */,
+				683963BED80E70296CF037A828B3BE3A /* Pods-GotBeerAppTests */,
 				4B1C3FB462516905AA74BC05ED3E3CD6 /* Pods-GotBeerAppUITests */,
 				7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */,
 				4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */,
@@ -1542,6 +1615,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		530FCB7947BD4FD4D8F3F4A87693B002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64603A68007CE74F1927AEF9223FB364 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1589,6 +1669,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBA5D8A59DE538C91C377C86B3092E36 /* Pods-GotBeerAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04531BF97D455D00BE14C1FD7A3F87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013A65614679F164030FAD21A849D1B /* Pods-GotBeerAppTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1945,6 +2033,12 @@
 			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
 			targetProxy = 07E45B0AFEEED2846D13571956E582B3 /* PBXContainerItemProxy */;
 		};
+		5E7AA59115DCDCEAE2264279A82A6C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GotBeerApp";
+			target = C62B00E8006E9BB1FC9F973909FEB65E /* Pods-GotBeerApp */;
+			targetProxy = A32040721AB56DED2AF3F6BD9DDCE3AB /* PBXContainerItemProxy */;
+		};
 		95788C5248CE8FF9F3E6CD96796FD05F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
@@ -2053,7 +2147,7 @@
 		};
 		24C9FD6F8B4823892F5517813D416D51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B962263662361E8820FC86F4321B603A /* Pods-GotBeerAppUITests.release.xcconfig */;
+			baseConfigurationReference = 1FBD933EDED503B71969ED9C6ED83E3E /* Pods-GotBeerAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2163,7 +2257,7 @@
 		};
 		55B9D40275182A73981732A9AC6A2942 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2FA47A83B8E7E757ED22F0A5856A2FC /* Pods-GotBeerAppUITests.debug.xcconfig */;
+			baseConfigurationReference = BD8AC55A5E55D881D97F1E286994752A /* Pods-GotBeerAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2265,7 +2359,7 @@
 		};
 		6F41BEE44E21151BB7D6C4BBA6D131CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4798AA332BADDB337101DC19C314225D /* Pods-GotBeerApp.release.xcconfig */;
+			baseConfigurationReference = F0A55D85919BE609B68471B2B788BDE9 /* Pods-GotBeerApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2288,6 +2382,45 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GotBeerApp/Pods-GotBeerApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7525AFEC292CEEC6A368457231710D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0C765CE899E059CCDD6C2D1D1C510F /* Pods-GotBeerAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GotBeerAppTests/Pods-GotBeerAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GotBeerAppTests/Pods-GotBeerAppTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2339,7 +2472,7 @@
 		};
 		96F31DE475EBC8F1688AA86D96D88DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 387DD99741BE33947EE77C7B042EBA86 /* Pods-GotBeerApp.debug.xcconfig */;
+			baseConfigurationReference = 015E7C2E0095586A93F0312743CED957 /* Pods-GotBeerApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2542,9 +2675,56 @@
 			};
 			name = Debug;
 		};
+		CD000E0268D6B17F071925D8CB1E3566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7C9603908C0A7A6509B14CA3C17187 /* Pods-GotBeerAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GotBeerAppTests/Pods-GotBeerAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GotBeerAppTests/Pods-GotBeerAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F95534E68F58ACFE33043D71134549A /* Build configuration list for PBXNativeTarget "Pods-GotBeerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD000E0268D6B17F071925D8CB1E3566 /* Debug */,
+				7525AFEC292CEEC6A368457231710D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1BB66320BE56886F2B60E3706EACA5FE /* Build configuration list for PBXNativeTarget "RxRelay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

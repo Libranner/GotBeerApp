@@ -11,7 +11,8 @@ import RxSwift
 import RxCocoa
 
 class BeersCollectionViewController: UICollectionViewController {  
-  private let viewModel = BeersListViewModel()
+  private let viewModel = BeersListViewModel(localProvider: BeerLocalProvider(),
+                                             remoteProvider: BeerRemoteProvider())
   private let reuseIdentifier = "Cell"
   private let disposeBag = DisposeBag()
   private var showingSearchBar = false

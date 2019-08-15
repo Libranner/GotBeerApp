@@ -15,6 +15,13 @@ class BeersListViewModel {
   var noResultsAvailable = BehaviorSubject<Bool>(value: false)
   var loading = BehaviorSubject<Bool>(value: false)
   private let disposeBag = DisposeBag()
+  private let localProvider: LocalProvider!
+  private let remoteProvider: RemoteProvider!
+  
+  init(localProvider: LocalProvider, remoteProvider: RemoteProvider) {
+    self.localProvider = localProvider
+    self.remoteProvider = remoteProvider
+  }
 
   //This function allow the user to get the list of beers
   func loadData(forCriteria food: String, ascending: Bool = false) {
@@ -23,18 +30,15 @@ class BeersListViewModel {
     }
     
     loading.onNext(true)
-    let ids = SearchHistoryManager().getSearchHistory(forCriteria: food,
-                                                      in: CoreDataManager.shared.context)
+    let ids = localProvider.getSearchHistory(forCriteria: food)
     
     if !ids.isEmpty {
-      let data = BeerPersistenceManager().getBeers(withIds: ids,
-                                                   in: CoreDataManager.shared.context)
+      let data = localProvider.getBeers(withIds: ids)
       self.completeLoad(beers: data, ascending: ascending)
     }
     else {
-      ApiClient.getBeers(food: food) { [weak self] data,  error in
-        BeerPersistenceManager().saveBeer(beers: data, forCriteria: food,
-                                          in: CoreDataManager.shared.context)
+      remoteProvider.getBeers(food: food) { [weak self] data,  error in
+        self?.localProvider.saveBeers(data, forCriteria: food)
         self?.completeLoad(beers: data, ascending: ascending)
       }
     }
