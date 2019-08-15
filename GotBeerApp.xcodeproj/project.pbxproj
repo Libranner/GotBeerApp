@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		317D7683EE5F02A1CA0F13B7 /* Pods_GotBeerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4FDF92CF2901A8EEECD4B6 /* Pods_GotBeerAppTests.framework */; };
 		75BFBD2ED651612874813CF1 /* Pods_GotBeerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE54D50FAE7A6A2B839B18B4 /* Pods_GotBeerApp.framework */; };
-		8146413D30D2227A016349D1 /* Pods_GotBeerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35C5BEBB8A9374319FC40B4 /* Pods_GotBeerAppUITests.framework */; };
 		EED5A3442301E19A00D736B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5A3432301E19A00D736B1 /* AppDelegate.swift */; };
 		EED5A3492301E19A00D736B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED5A3472301E19A00D736B1 /* Main.storyboard */; };
 		EED5A34C2301E19A00D736B1 /* GotBeerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EED5A34A2301E19A00D736B1 /* GotBeerApp.xcdatamodeld */; };
 		EED5A34E2301E19B00D736B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED5A34D2301E19B00D736B1 /* Assets.xcassets */; };
 		EED5A3512301E19B00D736B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED5A34F2301E19B00D736B1 /* LaunchScreen.storyboard */; };
-		EED5A35C2301E19B00D736B1 /* GotBeerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5A35B2301E19B00D736B1 /* GotBeerAppUITests.swift */; };
 		EED5A3672301E36F00D736B1 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5A3662301E36F00D736B1 /* Beer.swift */; };
 		EED5A36D2301E51100D736B1 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5A36C2301E51100D736B1 /* AsyncImageView.swift */; };
 		EED5A3702301E58E00D736B1 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5A36F2301E58E00D736B1 /* ImageCacheManager.swift */; };
@@ -36,17 +34,10 @@
 		EEF6CFD32305C2AC00D0800B /* BeerRemoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFD22305C2AC00D0800B /* BeerRemoteProvider.swift */; };
 		EEF6CFD52305C3A800D0800B /* BeersListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFD42305C3A800D0800B /* BeersListViewModelTests.swift */; };
 		EEF6CFD72305C70F00D0800B /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFD62305C70F00D0800B /* FakeData.swift */; };
-		EEF6CFD92305CDA700D0800B /* FakeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFD82305CDA700D0800B /* FakeProvider.swift */; };
+		EEF6CFDB2305CE3900D0800B /* FakeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFDA2305CE3900D0800B /* FakeProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EED5A3582301E19B00D736B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EED5A3382301E19A00D736B1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EED5A33F2301E19A00D736B1;
-			remoteInfo = GotBeerApp;
-		};
 		EEF6CFCA2305B55600D0800B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EED5A3382301E19A00D736B1 /* Project object */;
@@ -72,9 +63,6 @@
 		EED5A34D2301E19B00D736B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED5A3502301E19B00D736B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED5A3522301E19B00D736B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EED5A3572301E19B00D736B1 /* GotBeerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GotBeerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EED5A35B2301E19B00D736B1 /* GotBeerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GotBeerAppUITests.swift; sourceTree = "<group>"; };
-		EED5A35D2301E19B00D736B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EED5A3662301E36F00D736B1 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		EED5A36C2301E51100D736B1 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		EED5A36F2301E58E00D736B1 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
@@ -97,7 +85,7 @@
 		EEF6CFD22305C2AC00D0800B /* BeerRemoteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRemoteProvider.swift; sourceTree = "<group>"; };
 		EEF6CFD42305C3A800D0800B /* BeersListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersListViewModelTests.swift; sourceTree = "<group>"; };
 		EEF6CFD62305C70F00D0800B /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
-		EEF6CFD82305CDA700D0800B /* FakeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FakeProvider.swift; path = /Users/libranner/Desktop/Sopra/GotBeerApp/GotBeerAppTests/FakeProvider.swift; sourceTree = "<absolute>"; };
+		EEF6CFDA2305CE3900D0800B /* FakeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeProvider.swift; sourceTree = "<group>"; };
 		EF4FDF92CF2901A8EEECD4B6 /* Pods_GotBeerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GotBeerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,14 +95,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75BFBD2ED651612874813CF1 /* Pods_GotBeerApp.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EED5A3542301E19B00D736B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8146413D30D2227A016349D1 /* Pods_GotBeerAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				EED5A3422301E19A00D736B1 /* GotBeerApp */,
-				EED5A35A2301E19B00D736B1 /* GotBeerAppUITests */,
 				EEF6CFC62305B55600D0800B /* GotBeerAppTests */,
 				EED5A3412301E19A00D736B1 /* Products */,
 				F77BF311A8DE9C4E181A7AA8 /* Pods */,
@@ -145,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				EED5A3402301E19A00D736B1 /* GotBeerApp.app */,
-				EED5A3572301E19B00D736B1 /* GotBeerAppUITests.xctest */,
 				EEF6CFC52305B55500D0800B /* GotBeerAppTests.xctest */,
 			);
 			name = Products;
@@ -169,15 +147,6 @@
 				EED5A3522301E19B00D736B1 /* Info.plist */,
 			);
 			path = GotBeerApp;
-			sourceTree = "<group>";
-		};
-		EED5A35A2301E19B00D736B1 /* GotBeerAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EED5A35B2301E19B00D736B1 /* GotBeerAppUITests.swift */,
-				EED5A35D2301E19B00D736B1 /* Info.plist */,
-			);
-			path = GotBeerAppUITests;
 			sourceTree = "<group>";
 		};
 		EED5A3682301E37A00D736B1 /* Models */ = {
@@ -274,8 +243,8 @@
 				EEF6CFC72305B55600D0800B /* BeerViewModelTests.swift */,
 				EEF6CFC92305B55600D0800B /* Info.plist */,
 				EEF6CFD42305C3A800D0800B /* BeersListViewModelTests.swift */,
-				EEF6CFD82305CDA700D0800B /* FakeProvider.swift */,
 				EEF6CFD62305C70F00D0800B /* FakeData.swift */,
+				EEF6CFDA2305CE3900D0800B /* FakeProvider.swift */,
 			);
 			path = GotBeerAppTests;
 			sourceTree = "<group>";
@@ -335,25 +304,6 @@
 			productReference = EED5A3402301E19A00D736B1 /* GotBeerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EED5A3562301E19B00D736B1 /* GotBeerAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EED5A3632301E19B00D736B1 /* Build configuration list for PBXNativeTarget "GotBeerAppUITests" */;
-			buildPhases = (
-				B20EB8A1DF3DE969705418C9 /* [CP] Check Pods Manifest.lock */,
-				EED5A3532301E19B00D736B1 /* Sources */,
-				EED5A3542301E19B00D736B1 /* Frameworks */,
-				EED5A3552301E19B00D736B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EED5A3592301E19B00D736B1 /* PBXTargetDependency */,
-			);
-			name = GotBeerAppUITests;
-			productName = GotBeerAppUITests;
-			productReference = EED5A3572301E19B00D736B1 /* GotBeerAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		EEF6CFC42305B55500D0800B /* GotBeerAppTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEF6CFCE2305B55600D0800B /* Build configuration list for PBXNativeTarget "GotBeerAppTests" */;
@@ -386,10 +336,6 @@
 					EED5A33F2301E19A00D736B1 = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					EED5A3562301E19B00D736B1 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = EED5A33F2301E19A00D736B1;
-					};
 					EEF6CFC42305B55500D0800B = {
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = EED5A33F2301E19A00D736B1;
@@ -410,7 +356,6 @@
 			projectRoot = "";
 			targets = (
 				EED5A33F2301E19A00D736B1 /* GotBeerApp */,
-				EED5A3562301E19B00D736B1 /* GotBeerAppUITests */,
 				EEF6CFC42305B55500D0800B /* GotBeerAppTests */,
 			);
 		};
@@ -424,13 +369,6 @@
 				EED5A3512301E19B00D736B1 /* LaunchScreen.storyboard in Resources */,
 				EED5A34E2301E19B00D736B1 /* Assets.xcassets in Resources */,
 				EED5A3492301E19A00D736B1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EED5A3552301E19B00D736B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,28 +443,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B20EB8A1DF3DE969705418C9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GotBeerAppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -556,14 +472,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EED5A3532301E19B00D736B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EED5A35C2301E19B00D736B1 /* GotBeerAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EEF6CFC12305B55500D0800B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,18 +479,13 @@
 				EEF6CFD72305C70F00D0800B /* FakeData.swift in Sources */,
 				EEF6CFD52305C3A800D0800B /* BeersListViewModelTests.swift in Sources */,
 				EEF6CFC82305B55600D0800B /* BeerViewModelTests.swift in Sources */,
-				EEF6CFD92305CDA700D0800B /* FakeProvider.swift in Sources */,
+				EEF6CFDB2305CE3900D0800B /* FakeProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EED5A3592301E19B00D736B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EED5A33F2301E19A00D736B1 /* GotBeerApp */;
-			targetProxy = EED5A3582301E19B00D736B1 /* PBXContainerItemProxy */;
-		};
 		EEF6CFCB2305B55600D0800B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EED5A33F2301E19A00D736B1 /* GotBeerApp */;
@@ -764,48 +667,6 @@
 			};
 			name = Release;
 		};
-		EED5A3642301E19B00D736B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A286D63C1E73D2F3E002F62B /* Pods-GotBeerAppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TGA26CY25M;
-				INFOPLIST_FILE = GotBeerAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.libranner.GotBeerAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GotBeerApp;
-			};
-			name = Debug;
-		};
-		EED5A3652301E19B00D736B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D00B51CFA9AB8985785108A /* Pods-GotBeerAppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TGA26CY25M;
-				INFOPLIST_FILE = GotBeerAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.libranner.GotBeerAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GotBeerApp;
-			};
-			name = Release;
-		};
 		EEF6CFCC2305B55600D0800B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2EE143D59E6234F34080693 /* Pods-GotBeerAppTests.debug.xcconfig */;
@@ -865,15 +726,6 @@
 			buildConfigurations = (
 				EED5A3612301E19B00D736B1 /* Debug */,
 				EED5A3622301E19B00D736B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EED5A3632301E19B00D736B1 /* Build configuration list for PBXNativeTarget "GotBeerAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EED5A3642301E19B00D736B1 /* Debug */,
-				EED5A3652301E19B00D736B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/libranner/Desktop/Sopra/GotBeerApp/GotBeerAppTests/FakeProvider.swift">
-   </FileRef>
-   <FileRef
       location = "group:GotBeerApp.xcodeproj">
    </FileRef>
    <FileRef
