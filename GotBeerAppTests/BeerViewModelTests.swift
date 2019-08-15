@@ -1,5 +1,5 @@
 //
-//  GotBeerAppTests.swift
+//  BeerViewModelTests.swift
 //  GotBeerAppTests
 //
 //  Created by Libranner Leonel Santos Espinal on 15/08/2019.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import GotBeerApp
 
-class GotBeerAppTests: XCTestCase {
+class BeerViewModelTests: XCTestCase {
   
   override func setUp() {
     // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -48,12 +48,4 @@ class GotBeerAppTests: XCTestCase {
     let beerViewModel = BeerViewModel(beer: beer)
     XCTAssertEqual("ABV: \(beer.abv)%", beerViewModel.abvString)
   }
-  
-  func testPerformanceExample() {
-    // This is an example of a performance test case.
-    self.measure {
-      // Put the code you want to measure the time of here.
-    }
-  }
-  
 }
