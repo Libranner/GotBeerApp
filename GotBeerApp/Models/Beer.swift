@@ -28,15 +28,4 @@ struct Beer: Codable {
     case foodPairing = "food_pairing"
     case brewerTips = "brewers_tips"
   }
-  
-  init(beerCD: BeerCD) {
-    self.beerId = beerCD.beerId
-    self.name = beerCD.name ?? ""
-    self.abv = beerCD.abv
-    self.beerDescription = beerCD.beerDescription ?? ""
-    self.brewerTips = beerCD.brewerTips
-    self.imageUrl = beerCD.imageUrl
-    self.tagline = beerCD.tagline ?? ""
-    self.foodPairing = beerCD.foodPairing as? [String] ?? []
-  }
 }

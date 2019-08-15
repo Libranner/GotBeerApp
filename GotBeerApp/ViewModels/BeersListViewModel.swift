@@ -14,9 +14,9 @@ class BeersListViewModel {
   var filteredBeers = BehaviorSubject<[BeerViewModel]>(value: [])
   var noResultsAvailable = BehaviorSubject<Bool>(value: false)
   var loading = BehaviorSubject<Bool>(value: false)
-  
   private let disposeBag = DisposeBag()
 
+  //This function allow the user to get the list of beers
   func loadData(forCriteria food: String, ascending: Bool = false) {
     guard !food.isEmpty else {
       return
@@ -40,6 +40,14 @@ class BeersListViewModel {
     }
   }
   
+  //This function allow the user to re-order the list based on the ABV
+  func reSortData(ascending:Bool) {
+    let data = try? filteredBeers.value()
+    if data != nil && data!.count > 0 {
+      filteredBeers.onNext(sortBeers(data!, abvAscending: ascending))
+    }
+  }
+  
   private func completeLoad(beers: [Beer], ascending: Bool) {
     let data = beers.compactMap { convertToViewModel(beer: $0) }
     
@@ -51,14 +59,7 @@ class BeersListViewModel {
   private func convertToViewModel(beer: Beer) -> BeerViewModel{
     return BeerViewModel(beer: beer)
   }
-  
-  func reSortData(ascending:Bool) {
-    let data = try? filteredBeers.value()
-    if data != nil && data!.count > 0 {
-      filteredBeers.onNext(sortBeers(data!, abvAscending: ascending))
-    }
-  }
-  
+
   private func sortBeers(_ beers: [BeerViewModel], abvAscending: Bool) -> [BeerViewModel] {
     if abvAscending {
       return beers.sorted { $0.abv > $1.abv }

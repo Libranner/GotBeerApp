@@ -19,7 +19,16 @@ struct BeerPersistenceManager {
 
     if let result = try? context.fetch(req),
       result.count > 0 {
-      return result.compactMap{ Beer(beerCD: $0) }
+      return result.compactMap({ (beerCD) -> Beer in
+        return Beer(beerId: beerCD.beerId,
+                    name: beerCD.name ?? "",
+                    tagline: beerCD.tagline ?? "",
+                    beerDescription: beerCD.beerDescription ?? "",
+                    imageUrl: beerCD.imageUrl,
+                    abv: beerCD.abv,
+                    foodPairing: beerCD.foodPairing as? [String] ?? [],
+                    brewerTips: beerCD.brewerTips)
+      })
     }
     
     return []
