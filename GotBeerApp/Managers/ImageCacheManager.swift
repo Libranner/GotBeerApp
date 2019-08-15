@@ -23,7 +23,6 @@ class ImageCacheManager: NSObject {
     DispatchQueue.global(qos: .userInteractive).async { [weak self] in
       let fileManager = FileManager.default
       if let docs = fileManager.urls(for: .cachesDirectory, in: .userDomainMask).first {
-        //var c = fileManager.contentsOfDirectory(atPath: docs)
         let file = docs.appendingPathComponent(url.lastPathComponent)
         if let image = UIImage(contentsOfFile: file.path){
           // Retornamos la imagen en el Completion closure

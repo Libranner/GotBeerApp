@@ -17,7 +17,29 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5XM-Q2-zwh">
+                                <rect key="frame" x="83" y="238" width="248" height="248.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5XM-Q2-zwh" secondAttribute="height" multiplier="1:1" id="AFd-Si-rZu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Got Beer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DO6-fh-Jb0">
+                                <rect key="frame" x="-5" y="512.5" width="414" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DO6-fh-Jb0" firstAttribute="centerX" secondItem="5XM-Q2-zwh" secondAttribute="centerX" constant="-5" id="35Y-Ks-7st"/>
+                            <constraint firstItem="5XM-Q2-zwh" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.6" id="Yj2-bU-rJR"/>
+                            <constraint firstItem="DO6-fh-Jb0" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="dR8-F5-Mbi"/>
+                            <constraint firstItem="5XM-Q2-zwh" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.8" id="fmx-sY-VsI"/>
+                            <constraint firstItem="DO6-fh-Jb0" firstAttribute="top" secondItem="5XM-Q2-zwh" secondAttribute="bottom" constant="26" id="q5J-B4-LA1"/>
+                            <constraint firstItem="5XM-Q2-zwh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vNC-cH-sC1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -26,4 +48,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="app_logo" width="512" height="512"/>
+    </resources>
 </document>

@@ -31,7 +31,7 @@ class BeersCollectionViewController: UICollectionViewController {
     setupAdditionalViews()
     setupLayout()
     setupBindings()
-
+    
     let tapGesture = UITapGestureRecognizer(target: self,
                                             action: #selector(hideSearchBar))
     view.addGestureRecognizer(tapGesture)
@@ -70,7 +70,7 @@ class BeersCollectionViewController: UICollectionViewController {
     NSLayoutConstraint.activate([
       noResultsView.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor, multiplier: 0.8),
       noResultsView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
-      noResultsView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor, constant: -50),
+      noResultsView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
       noResultsView.heightAnchor.constraint(equalToConstant: 60)
       ])
   }
@@ -83,8 +83,9 @@ class BeersCollectionViewController: UICollectionViewController {
     
     showingSearchBar = true
     searchView.isHidden = false
+    noResultsView.isHidden = true
     
-    UIView.animate(withDuration: 0.5, delay: 0, options: .curveLinear, animations: {
+    UIView.animate(withDuration: 0.35, delay: 0, options: .curveEaseOut, animations: {
       self.searchBarTopConstraint.constant = 20
       self.view.layoutIfNeeded()
     }, completion: { _ in
@@ -95,8 +96,8 @@ class BeersCollectionViewController: UICollectionViewController {
   @objc private func hideSearchBar() {
     view.endEditing(true)
     showingSearchBar = false
-  
-    UIView.animate(withDuration: 0.5, delay: 0, options: .curveLinear, animations: {
+    
+    UIView.animate(withDuration: 0.35, delay: 0, options: .curveLinear, animations: {
       self.searchBarTopConstraint.constant = -100
       self.view.layoutIfNeeded()
     }, completion: { _ in
@@ -121,16 +122,25 @@ class BeersCollectionViewController: UICollectionViewController {
       .observeOn(MainScheduler.instance)
       .bind(to: collectionView.rx.items(cellIdentifier: reuseIdentifier,
                                         cellType: BeerCollectionViewCell.self)) {
-        (row, beer, cell) in
-        cell.configure(beer: beer)
+                                          (row, beer, cell) in
+                                          cell.configure(beer: beer)
       }
       .disposed(by: disposeBag)
     
+    collectionView.rx.willDisplayCell
+      .subscribe(onNext: { cell, indexPath in
+        cell.alpha = 0
+        UIView.animate(withDuration: 0.8) {
+          cell.alpha = 1
+        }
+      })
+      .disposed(by: disposeBag)
+    
     viewModel.noResultsAvailable
-    .observeOn(MainScheduler.instance)
-    .bind { [weak self] show in
-      self?.noResultsView.isHidden = !show
-    }.disposed(by: disposeBag)
+      .observeOn(MainScheduler.instance)
+      .bind { [weak self] show in
+        self?.noResultsView.isHidden = !show
+      }.disposed(by: disposeBag)
     
     showSearchBarButton.rx.tap.bind { [weak self] in
       self?.showSearchBar()

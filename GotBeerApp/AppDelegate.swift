@@ -14,10 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-
   func application(_ application: UIApplication, didFinishLaunchingWithOptions
     launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+
+    let barColor = UIColor(red: 219/255, green: 151/255, blue: 51/255, alpha: 0.95)
+    UINavigationBar.appearance().barTintColor = barColor
+    UINavigationBar.appearance().tintColor = .white
+    
+    let titleColor =  [NSAttributedString.Key.foregroundColor : UIColor.white]
+    UINavigationBar.appearance().titleTextAttributes = titleColor
+    UIBarButtonItem.appearance().setTitleTextAttributes(titleColor, for: .normal)
+    
+    UINavigationBar.appearance().titleTextAttributes =
+      [NSAttributedString.Key.foregroundColor : UIColor.white]
+    
     return true
   }
 

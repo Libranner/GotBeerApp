@@ -69,4 +69,12 @@ class BeerCollectionViewCell: UICollectionViewCell {
       imageView.fillWithURL(imageUrl, placeholder: nil)
     }
   }
+  
+  override func prepareForReuse() {
+    imageView.image = UIImage(named: "beer")
+    nameLabel.text = ""
+    taglineLabel.text = ""
+    abvLabel.text = ""
+    descriptionLabel.text = ""
+  }
 }
