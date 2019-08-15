@@ -30,6 +30,7 @@
 		EEF6CFB6230460FF00D0800B /* SearchHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFB5230460FF00D0800B /* SearchHistoryManager.swift */; };
 		EEF6CFB82304A12D00D0800B /* BeersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFB72304A12D00D0800B /* BeersListViewModel.swift */; };
 		EEF6CFBA2304BB7500D0800B /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFB92304BB7500D0800B /* BeerViewModel.swift */; };
+		EEF6CFC0230513DC00D0800B /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6CFBF230513DC00D0800B /* BeerDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		EEF6CFB5230460FF00D0800B /* SearchHistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryManager.swift; sourceTree = "<group>"; };
 		EEF6CFB72304A12D00D0800B /* BeersListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersListViewModel.swift; sourceTree = "<group>"; };
 		EEF6CFB92304BB7500D0800B /* BeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
+		EEF6CFBF230513DC00D0800B /* BeerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +123,8 @@
 			children = (
 				EEF6CFBC2304BC3600D0800B /* Storyboards */,
 				EEF6CFBB2304BBEA00D0800B /* Resources */,
-				EEF6CFA4230271BE00D0800B /* ViewModels */,
 				EEF6CFA1230265A100D0800B /* Services */,
+				EEF6CFA4230271BE00D0800B /* ViewModels */,
 				EED5A3832301FACF00D736B1 /* Controllers */,
 				EED5A3742301E76800D736B1 /* Constants */,
 				EED5A3712301E6FE00D736B1 /* Extensions */,
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				EED5A3842301FAE400D736B1 /* BeersCollectionViewController.swift */,
+				EEF6CFBF230513DC00D0800B /* BeerDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				EED5A3852301FAE400D736B1 /* BeersCollectionViewController.swift in Sources */,
 				EEF6CFA32302660200D0800B /* ApiRouter.swift in Sources */,
 				EED5A3672301E36F00D736B1 /* Beer.swift in Sources */,
+				EEF6CFC0230513DC00D0800B /* BeerDetailViewController.swift in Sources */,
 				EEF6CFB6230460FF00D0800B /* SearchHistoryManager.swift in Sources */,
 				EED5A36D2301E51100D736B1 /* AsyncImageView.swift in Sources */,
 			);

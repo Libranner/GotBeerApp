@@ -16,10 +16,12 @@ class BeersCollectionViewController: UICollectionViewController {
   private let disposeBag = DisposeBag()
   private var showingSearchBar = false
   private var sortAscending = true
+  private let showDetailSegue = "showDetail"
   
   @IBOutlet var showSearchBarButton: UIBarButtonItem!
   @IBOutlet var searchView: SearchView!
   @IBOutlet var noResultsView: UIView!
+  private var selectedBeer: Beer?
   
   @IBOutlet var sortBarButton: UIBarButtonItem!
   private var searchBarTopConstraint: NSLayoutConstraint!
@@ -28,14 +30,14 @@ class BeersCollectionViewController: UICollectionViewController {
     super.viewDidLoad()
     self.clearsSelectionOnViewWillAppear = false
     
+    let tapGesture = UITapGestureRecognizer(target: self,
+                                            action: #selector(hideSearchBar))
+    //tapGesture.cancelsTouchesInView = false
+    //view.addGestureRecognizer(tapGesture)
+    
     setupAdditionalViews()
     setupLayout()
     setupBindings()
-    
-    let tapGesture = UITapGestureRecognizer(target: self,
-                                            action: #selector(hideSearchBar))
-    view.addGestureRecognizer(tapGesture)
-    
     showSearchBar()
   }
   
@@ -127,11 +129,23 @@ class BeersCollectionViewController: UICollectionViewController {
       }
       .disposed(by: disposeBag)
     
-    collectionView.rx.willDisplayCell
+    collectionView.rx
+      .willDisplayCell
       .subscribe(onNext: { cell, indexPath in
         cell.alpha = 0
         UIView.animate(withDuration: 0.8) {
           cell.alpha = 1
+        }
+      })
+      .disposed(by: disposeBag)
+    
+    collectionView.rx
+      .modelSelected(Beer.self)
+      .subscribe({ value in
+        DispatchQueue.main.async {
+          self.selectedBeer = value.element
+          self.performSegue(withIdentifier: self.showDetailSegue,
+                            sender: self)
         }
       })
       .disposed(by: disposeBag)
@@ -149,6 +163,14 @@ class BeersCollectionViewController: UICollectionViewController {
     sortBarButton.rx.tap.bind { [weak self] in
       self?.sortCollection()
       }.disposed(by: disposeBag)
+  }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == showDetailSegue {
+      if let destinationVC = segue.destination as? BeerDetailViewController {
+       destinationVC.beer = selectedBeer
+      }
+    }
   }
 }
 
