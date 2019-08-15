@@ -26,14 +26,24 @@ class BeersCollectionViewController: UICollectionViewController {
   @IBOutlet var sortBarButton: UIBarButtonItem!
   private var searchBarTopConstraint: NSLayoutConstraint!
   
+  lazy var activityIndicatorView: UIActivityIndicatorView = {
+    let activityIndicatorView = UIActivityIndicatorView(style: .whiteLarge)
+    activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
+    activityIndicatorView.hidesWhenStopped = true
+    
+    self.view.addSubview(activityIndicatorView)
+    NSLayoutConstraint.activate([
+      activityIndicatorView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+      activityIndicatorView.topAnchor.constraint(equalTo:
+        view.safeAreaLayoutGuide.topAnchor, constant: 20)
+      ])
+    
+    return activityIndicatorView
+  }()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     self.clearsSelectionOnViewWillAppear = false
-    
-    let tapGesture = UITapGestureRecognizer(target: self,
-                                            action: #selector(hideSearchBar))
-    //tapGesture.cancelsTouchesInView = false
-    //view.addGestureRecognizer(tapGesture)
     
     setupAdditionalViews()
     setupLayout()
@@ -59,8 +69,10 @@ class BeersCollectionViewController: UICollectionViewController {
       view.safeAreaLayoutGuide.topAnchor, constant: -100)
     
     NSLayoutConstraint.activate([
-      searchView.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor, multiplier: 0.8),
-      searchView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
+      searchView.widthAnchor.constraint(equalTo:
+        view.safeAreaLayoutGuide.widthAnchor, multiplier: 0.8),
+      searchView.centerXAnchor.constraint(equalTo:
+        view.safeAreaLayoutGuide.centerXAnchor),
       searchBarTopConstraint,
       searchView.heightAnchor.constraint(equalToConstant: 60)
       ])
@@ -70,9 +82,12 @@ class BeersCollectionViewController: UICollectionViewController {
     noResultsView.backgroundColor = .clear
     
     NSLayoutConstraint.activate([
-      noResultsView.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor, multiplier: 0.8),
-      noResultsView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
-      noResultsView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+      noResultsView.widthAnchor.constraint(equalTo:
+        view.safeAreaLayoutGuide.widthAnchor, multiplier: 0.8),
+      noResultsView.centerXAnchor.constraint(equalTo:
+        view.safeAreaLayoutGuide.centerXAnchor),
+      noResultsView.topAnchor.constraint(equalTo:
+        view.safeAreaLayoutGuide.topAnchor, constant: 20),
       noResultsView.heightAnchor.constraint(equalToConstant: 60)
       ])
   }
@@ -95,7 +110,7 @@ class BeersCollectionViewController: UICollectionViewController {
     })
   }
   
-  @objc private func hideSearchBar() {
+  private func hideSearchBar() {
     view.endEditing(true)
     showingSearchBar = false
     
@@ -129,6 +144,24 @@ class BeersCollectionViewController: UICollectionViewController {
       }
       .disposed(by: disposeBag)
     
+    viewModel.noResultsAvailable
+      .observeOn(MainScheduler.instance)
+      .bind { [weak self] show in
+        self?.noResultsView.isHidden = !show
+      }.disposed(by: disposeBag)
+    
+    viewModel.loading
+      .observeOn(MainScheduler.instance)
+      .bind { [weak self] isLoading in
+        if isLoading {
+          self?.activityIndicatorView.isHidden = false
+          self?.activityIndicatorView.startAnimating()
+        }
+        else {
+          self?.activityIndicatorView.stopAnimating()
+        }
+      }.disposed(by: disposeBag)
+    
     collectionView.rx
       .willDisplayCell
       .subscribe(onNext: { cell, indexPath in
@@ -149,12 +182,6 @@ class BeersCollectionViewController: UICollectionViewController {
         }
       })
       .disposed(by: disposeBag)
-    
-    viewModel.noResultsAvailable
-      .observeOn(MainScheduler.instance)
-      .bind { [weak self] show in
-        self?.noResultsView.isHidden = !show
-      }.disposed(by: disposeBag)
     
     showSearchBarButton.rx.tap.bind { [weak self] in
       self?.showSearchBar()

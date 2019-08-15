@@ -13,6 +13,7 @@ import RxCocoa
 class BeersListViewModel {
   var filteredBeers = BehaviorSubject<[Beer]>(value: [])
   var noResultsAvailable = BehaviorSubject<Bool>(value: false)
+  var loading = BehaviorSubject<Bool>(value: false)
   
   private let disposeBag = DisposeBag()
 
@@ -21,6 +22,7 @@ class BeersListViewModel {
       return
     }
     
+    loading.onNext(true)
     let ids = SearchHistoryManager().getSearchHistory(forCriteria: food,
                                                       in: CoreDataManager.shared.context)
     
@@ -30,6 +32,7 @@ class BeersListViewModel {
 
       filteredBeers.onNext(sortBeers(data, abvAscending: ascending))
       noResultsAvailable.onNext(data.count == 0)
+      loading.onNext(false)
     }
     else {
       ApiClient.getBeers(food: food) { [weak self] data,  error in
@@ -38,6 +41,7 @@ class BeersListViewModel {
         
         self?.filteredBeers.onNext(self?.sortBeers(data, abvAscending: ascending) ?? [])
         self?.noResultsAvailable.onNext(data.count == 0)
+        self?.loading.onNext(false)
       }
     }
   }

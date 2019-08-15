@@ -62,7 +62,7 @@ class BeerCollectionViewCell: UICollectionViewCell {
   func configure(beer: Beer) {
     nameLabel.text = beer.name
     taglineLabel.text = beer.tagline
-    abvLabel.text = "\(beer.abv)"
+    abvLabel.text = "ABV: \(beer.abv)%"
     descriptionLabel.text = beer.beerDescription
     
     if let imageUrl = beer.imageURL {

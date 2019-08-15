@@ -24,6 +24,7 @@ class SearchView: UIView {
   private func setupBinding() {
     searchButton.rx.tap.bind { [unowned self] in
       guard self.criteriaTextField.text?.isEmpty == false else {
+        self.delegate?.searchViewShouldDismiss()
         return
       }
       
