@@ -47,7 +47,7 @@ struct BeerPersistenceManager {
       newBeer.tagline = beer.tagline
       newBeer.beerDescription = beer.beerDescription
       newBeer.brewerTips = beer.brewerTips
-      newBeer.imageUrl = beer.imageURL
+      newBeer.imageUrl = beer.imageUrl
       newBeer.foodPairing = beer.foodPairing as NSObject
     }
     

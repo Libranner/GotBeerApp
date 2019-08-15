@@ -21,7 +21,7 @@ class BeersCollectionViewController: UICollectionViewController {
   @IBOutlet var showSearchBarButton: UIBarButtonItem!
   @IBOutlet var searchView: SearchView!
   @IBOutlet var noResultsView: UIView!
-  private var selectedBeer: Beer?
+  private var selectedBeer: BeerViewModel?
   
   @IBOutlet var sortBarButton: UIBarButtonItem!
   private var searchBarTopConstraint: NSLayoutConstraint!
@@ -173,7 +173,7 @@ class BeersCollectionViewController: UICollectionViewController {
       .disposed(by: disposeBag)
     
     collectionView.rx
-      .modelSelected(Beer.self)
+      .modelSelected(BeerViewModel.self)
       .subscribe({ value in
         DispatchQueue.main.async {
           self.selectedBeer = value.element

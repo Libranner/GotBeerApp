@@ -6,12 +6,26 @@
 //  Copyright © 2019 Libranner Leonel Santos Espinal. All rights reserved.
 //
 
-import UIKit
-import RxSwift
+import Foundation
 
-class BeerViewModel: NSObject {
-  var filteredBeers = BehaviorSubject<[Beer]>(value: [])
-  var noResultsAvailable = BehaviorSubject<Bool>(value: false)
+struct BeerViewModel {
+  let name: String
+  let tagline: String
+  let beerDescription: String
+  let abv: Float
+  let brewerTips: String?
+  let imageUrl: URL?
   
-  private let disposeBag = DisposeBag()
+  init(beer: Beer){
+    name = beer.name
+    tagline = beer.tagline
+    abv = beer.abv
+    beerDescription = beer.beerDescription
+    imageUrl = beer.imageUrl
+    brewerTips = beer.brewerTips
+  }
+  
+  var abvString: String {
+    return "ABV: \(abv)%"
+  }
 }

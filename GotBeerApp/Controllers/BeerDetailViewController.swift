@@ -17,7 +17,7 @@ class BeerDetailViewController: UIViewController {
   @IBOutlet var descriptionLabel: UILabel!
   @IBOutlet var tipsLabel: UILabel!
   
-  var beer: Beer?
+  var beer: BeerViewModel?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -29,11 +29,11 @@ class BeerDetailViewController: UIViewController {
       return
     }
     
-    if let url = unwrappedBeer.imageURL {
+    if let url = unwrappedBeer.imageUrl {
       imageView.fillWithURL(url, placeholder: "beer")
     }
     
-    abvLabel.text = "ABV: \(unwrappedBeer.abv)%"
+    abvLabel.text = unwrappedBeer.abvString
     nameLabel.text =  unwrappedBeer.name
     taglineLabel.text = unwrappedBeer.tagline
     descriptionLabel.text = unwrappedBeer.beerDescription

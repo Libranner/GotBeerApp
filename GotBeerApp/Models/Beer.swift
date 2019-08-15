@@ -13,7 +13,7 @@ struct Beer: Codable {
   var name: String
   var tagline: String
   var beerDescription: String
-  var imageURL: URL?
+  var imageUrl: URL?
   var abv: Float
   var foodPairing: [String]
   var brewerTips: String?
@@ -23,7 +23,7 @@ struct Beer: Codable {
     case name
     case tagline
     case beerDescription = "description"
-    case imageURL = "image_url"
+    case imageUrl = "image_url"
     case abv
     case foodPairing = "food_pairing"
     case brewerTips = "brewers_tips"
@@ -35,7 +35,7 @@ struct Beer: Codable {
     self.abv = beerCD.abv
     self.beerDescription = beerCD.beerDescription ?? ""
     self.brewerTips = beerCD.brewerTips
-    self.imageURL = beerCD.imageUrl
+    self.imageUrl = beerCD.imageUrl
     self.tagline = beerCD.tagline ?? ""
     self.foodPairing = beerCD.foodPairing as? [String] ?? []
   }

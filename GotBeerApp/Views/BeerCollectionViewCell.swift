@@ -59,13 +59,13 @@ class BeerCollectionViewCell: UICollectionViewCell {
     layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.contentView.layer.cornerRadius).cgPath
   }
   
-  func configure(beer: Beer) {
+  func configure(beer: BeerViewModel) {
     nameLabel.text = beer.name
     taglineLabel.text = beer.tagline
-    abvLabel.text = "ABV: \(beer.abv)%"
+    abvLabel.text = beer.abvString
     descriptionLabel.text = beer.beerDescription
     
-    if let imageUrl = beer.imageURL {
+    if let imageUrl = beer.imageUrl {
       imageView.fillWithURL(imageUrl, placeholder: nil)
     }
   }

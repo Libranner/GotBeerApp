@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 
 class BeersListViewModel {
-  var filteredBeers = BehaviorSubject<[Beer]>(value: [])
+  var filteredBeers = BehaviorSubject<[BeerViewModel]>(value: [])
   var noResultsAvailable = BehaviorSubject<Bool>(value: false)
   var loading = BehaviorSubject<Bool>(value: false)
   
@@ -29,21 +29,27 @@ class BeersListViewModel {
     if !ids.isEmpty {
       let data = BeerPersistenceManager().getBeers(withIds: ids,
                                                    in: CoreDataManager.shared.context)
-
-      filteredBeers.onNext(sortBeers(data, abvAscending: ascending))
-      noResultsAvailable.onNext(data.count == 0)
-      loading.onNext(false)
+      self.completeLoad(beers: data, ascending: ascending)
     }
     else {
       ApiClient.getBeers(food: food) { [weak self] data,  error in
         BeerPersistenceManager().saveBeer(beers: data, forCriteria: food,
                                           in: CoreDataManager.shared.context)
-        
-        self?.filteredBeers.onNext(self?.sortBeers(data, abvAscending: ascending) ?? [])
-        self?.noResultsAvailable.onNext(data.count == 0)
-        self?.loading.onNext(false)
+        self?.completeLoad(beers: data, ascending: ascending)
       }
     }
+  }
+  
+  private func completeLoad(beers: [Beer], ascending: Bool) {
+    let data = beers.compactMap { convertToViewModel(beer: $0) }
+    
+    filteredBeers.onNext(sortBeers(data, abvAscending: ascending))
+    noResultsAvailable.onNext(data.count == 0)
+    loading.onNext(false)
+  }
+  
+  private func convertToViewModel(beer: Beer) -> BeerViewModel{
+    return BeerViewModel(beer: beer)
   }
   
   func reSortData(ascending:Bool) {
@@ -53,7 +59,7 @@ class BeersListViewModel {
     }
   }
   
-  private func sortBeers(_ beers: [Beer], abvAscending: Bool) -> [Beer] {
+  private func sortBeers(_ beers: [BeerViewModel], abvAscending: Bool) -> [BeerViewModel] {
     if abvAscending {
       return beers.sorted { $0.abv > $1.abv }
     }
